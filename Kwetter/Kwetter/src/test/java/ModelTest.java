@@ -5,6 +5,7 @@
  */
 
 import model.Kwetteraar;
+import model.Role;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -31,7 +32,7 @@ public class ModelTest {
         String website = "laurent.nl";
         String profilePicture = "test.jpg";
         
-        Kwetteraar k = new Kwetteraar();
+        Kwetteraar k = new Kwetteraar(Role.User);
         
         
     }
